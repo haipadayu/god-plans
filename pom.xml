@@ -8,14 +8,19 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.john</groupId>
     <artifactId>God_plan</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>God_plan</name>
     <description>God_plan</description>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
+    <modules>
+        <module>god-user</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -37,13 +42,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+
 
 </project>
